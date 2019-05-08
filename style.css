@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+header {
+border-bottom: 1px solid black;
+}
+[id^='box'] {
+    border: 1px solid black;
+    width: calc(100% / 8);
+    margin: 5px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.7;
+}
+.highlighted {
+    background-color: lightcoral;
+}
+.special-header header {
+    background-color: lightyellow;
+    color: green;
+}
+.important {
+    opacity: 1;
+}
